@@ -9,13 +9,43 @@ img{
 body{
     background-color: papayawhip;
 }
-.center{
-    text-align: center;
-    color: brown;
+.center a {
+   /* text-align: center;*/
+    color: #090202;
     font-weight: bold;
+    background-color: rgb(155, 45, 161);
+   /* padding: 1em 2em;*/
+    display: inline-flex;
+    border: none;/*2px solid blue;*/
+    padding: .5em;
+    width: 150;
+    height: 50;
+    margin: 2;
+    text-decoration: none;
+    align-items: center;
+   
+    
+}
+.center a:hover {
+    background-color: aquamarine;
+    color: #150909;
 }
 h1{
     text-align: center;
     color: brown;
     font-weight: bold;
+}
+ul{
+    display: inline-flex;
+    /*border: 2px solid rebeccapurple;*/
+    padding: .5em;
+}
+/*li{
+    border: 2px solid blue;
+    padding: .5em;
+    width: 150;
+    height: 50;
+    margin: 70;
+    display: inline-flex;
+    background-color: aquamarine;
 }
